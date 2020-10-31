@@ -1,0 +1,10 @@
+*{
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fafafa;
+    color:#333;
+    overflow-x: hidden
+}

@@ -1,0 +1,37 @@
+.div{
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 7px 7px;
+    margin-left: 10px;
+    border-radius: 100px;
+}
+
+input {
+    color: black;
+    background-color: whitesmoke;
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 0px;
+    transition: all .4s linear
+}
+
+label{
+    color: cadetblue;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.div:hover > input{
+    padding: 5px;
+    width: 200px;
+}
+
+.div:hover > label {
+    background-color: whitesmoke;
+}
